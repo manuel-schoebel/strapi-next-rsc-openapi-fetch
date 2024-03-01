@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_content_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subTitle": {
+      "type": "text"
+    },
+    "titleColor": {
+      "type": "enumeration",
+      "enum": [
+        "white",
+        "fuchsia",
+        "black"
+      ],
+      "default": "white"
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

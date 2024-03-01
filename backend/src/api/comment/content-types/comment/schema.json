@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comments",
+  "info": {
+    "singularName": "comment",
+    "pluralName": "comments",
+    "displayName": "Comment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "comment": {
+      "type": "richtext"
+    },
+    "username": {
+      "type": "string"
+    }
+  }
+}
