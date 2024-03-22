@@ -19,7 +19,7 @@ function Comments({}: IComments) {
       {data &&
         data.map((comment) => (
           <div key={comment.id} className="my-6">
-            <Headline variant="h3">{comment.attributes?.username}</Headline>
+            <Headline variant="h3">{comment.attributes?.comment}</Headline>
             <p>{comment.attributes?.comment}</p>
           </div>
         ))}
